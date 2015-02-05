@@ -25,11 +25,7 @@ Quick start
 
 4. Create a instance in your view file/where you want to include comments
     
-<<<<<<< HEAD
-    comments = Comments.get(post_id,edit=True,delete=True,reply=True,user="User Name")
-=======
     comments = Comments.get(request,post_id,delete=True,reply=True,"Username")
->>>>>>> Updates
 
 5. Pass this comments data to your template
    
